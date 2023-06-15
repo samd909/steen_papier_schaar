@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Steen Papier Schaar</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+
+  <div id="game-container" class="container">
+    <h1>Steen Papier Schaar</h1>
+    <div class="game">
+      <button class="emoji-button" onclick="play('steen')">👊</button>
+      <button class="emoji-button" onclick="play('papier')">✋</button>
+      <button class="emoji-button" onclick="play('schaar')">✌️</button>
+    </div>
+    <h2 id="result">Kies een optie!</h2>
+    <h3 id="computer-choice"></h3>
+    <div id="score-container" class="score-container">
+      <div class="score-item">
+        <span class="score-label">Score:</span>
+        <span id="score" class="score-value">0</span>
+      </div>
+      <div class="score-item">
+        <span class="score-label">Highscore:</span>
+        <span id="highscore" class="score-value">0</span>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

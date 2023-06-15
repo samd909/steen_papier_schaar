@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to bottom, #ffccd5, #b6efff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-top: 20px;
+}
+
+.game {
+  margin-top: 20px;
+}
+
+.emoji-button {
+  font-size: 30px;
+  padding: 10px 20px;
+  margin: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.score-container {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.score-container h3 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.score-container p {
+  color: #333;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
